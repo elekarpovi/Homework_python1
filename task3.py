@@ -14,4 +14,15 @@ sum2 = (n % 1000) // 100 + ((n % 1000) // 10) % 10 + (n % 1000) % 10
 if sum1 == sum2:
     print('yes')
 else:
-    print('no')    
+    print('no')   
+
+# Второй вариант решения задачи:
+
+# n = str(input('Введите номер билета: ')) 
+# sum1 = n[0]+n[1]+n[2]
+# sum2 = n[3]+n[4]+n[5]  
+# if sum1 == sum2:
+#      print('yes')
+     
+# else:
+#      print('no')
